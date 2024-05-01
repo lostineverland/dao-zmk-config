@@ -5,6 +5,14 @@ This is a repository for a ZMK Firmware for both Dao42 and Dao44 keyboards.
 * [main](https://github.com/yumagulovrn/dao-zmk-config/tree/main) branch is for Dao42
 * [dao44](https://github.com/yumagulovrn/dao-zmk-config/tree/dao44) branch is, obviously, for Dao44
 
+## Mouse Motions
+
+In order to get the mouse motions working I had to make use of a development branch. I followed these links
+
+- [feature branch](https://github.com/petejohanson/zmk/tree/feat/pointers-move-scroll)
+- [how to make use](https://zmk.dev/docs/features/beta-testing) of feature branches
+- Original [thread](https://gist.github.com/krissen/dd27082e7ab0575619c7a31f4d2ec7ae) on how to get mouse motions
+
 ## Default keymap
 
 ### Dao42
