@@ -13,6 +13,19 @@ In order to get the mouse motions working I had to make use of a development bra
 - [how to make use](https://zmk.dev/docs/features/beta-testing) of feature branches
 - Original [thread](https://gist.github.com/krissen/dd27082e7ab0575619c7a31f4d2ec7ae) on how to get mouse motions
 
+## Fine Tuning
+
+I love this keyboard, and as I become more adept at using it, I progressively type faster. Consequently, I started running into some limitations with the home row mods. ZMK identifies a few behavior categories to customize a keyboard to a user's style. ZMK identifies the tap/hold "balanced" behavior as one that is favorable for home row mods.
+
+### Troublesome Words:
+
+    - fast
+    - some
+    - dict
+    - I'm
+    - split
+    - status
+
 ## Default keymap
 
 ### Dao42
