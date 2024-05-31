@@ -52,9 +52,9 @@
       //|-------------|-------------|-------------|------------|------------|-----------|---|-----------|---------------|---------------|----------------|----------------|----------|
           &kp GRAVE     &kp ASTRK     &kp N1         &kp N2        &kp N3     &kp PLUS        &kp HOME      &kp PG_UP        &kp UP          &kp END          &kp LBKT      &kp RBKT  
       //|-------------|-------------|-------------|------------|------------|-----------|---|-----------|---------------|---------------|----------------|----------------|----------|
-          &lt 5 TILDE   &mt LCTRL N0  &mt LSHFT N4  &mt LALT N5  &mt LGUI N6  &kp MINUS       &kp UNDER   &mt RGUI LEFT   &mt RALT DOWN   &mt RSHFT RIGHT  &mt RCTRL LPAR   &kp RPAR  
+          &lt 5 TILDE   &mt LCTRL N0  &mt LSHFT N4  &mt LALT N5  &mt LGUI N6  &kp MINUS       &kp MINUS   &mt RGUI LEFT   &mt RALT DOWN   &mt RSHFT RIGHT  &mt RCTRL LPAR   &kp RPAR  
       //|-------------|-------------|-------------|------------|------------|-----------|---|-----------|---------------|---------------|----------------|----------------|----------|
-          &none         &kp FSLH      &kp N7         &kp N8        &kp N9     &kp EQUAL        &trans      &kp PG_DN       &kp N0           &kp DOT          &kp LBRC       &kp RBRC  
+          &none         &kp FSLH      &kp N7         &kp N8        &kp N9     &kp UNDER       &kp UNDER   &kp PG_DN       &kp N0           &kp DOT          &kp LBRC       &kp RBRC  
       //|-------------|-------------|-------------|------------|------------|-----------|---|-----------|---------------|---------------|----------------|----------------|----------|
                                                     &none        &trans       &none           &trans      &to 0           &none                                                       
       //                                          |------------|------------|-----------|---|-----------|---------------|---------------|
@@ -66,9 +66,9 @@
       //|-----------|-----------|-----------|----------|------------|-------------|---|-----------|----------|-----------|-----------|----------------|----------|
           &kp GRAVE   &kp EXCL    &kp AT      &kp HASH   &kp DOLLAR   &kp PERCENT       &kp CARET   &kp AMPS   &kp ASTRK   &kp EQUAL   &kp LBKT         &kp RBKT  
       //|-----------|-----------|-----------|----------|------------|-------------|---|-----------|----------|-----------|-----------|----------------|----------|
-          &kp TILDE   &kp LCTRL   &kp LSHFT   &kp LALT   &kp LGUI     &kp MINUS         &kp UNDER   &kp RGUI   &kp RALT    &kp RSHFT   &mt RCTRL LPAR   &kp RPAR  
+          &kp TILDE   &kp LCTRL   &kp LSHFT   &kp LALT   &kp LGUI     &kp MINUS         &kp MINUS   &kp RGUI   &kp RALT    &kp RSHFT   &mt RCTRL LPAR   &kp RPAR  
       //|-----------|-----------|-----------|----------|------------|-------------|---|-----------|----------|-----------|-----------|----------------|----------|
-          &kp CAPS    &kp F1      &kp F2      &kp F3     &kp F4       &kp F5            &to 1       &to 2      &to 3       &to 4       &kp LBRC         &kp RBRC  
+          &kp CAPS    &none       &none       &none      &none        &kp UNDER         &kp UNDER   &none      &none       &to 4       &kp LBRC         &kp RBRC  
       //|-----------|-----------|-----------|----------|------------|-------------|---|-----------|----------|-----------|-----------|----------------|----------|
                                               &none      &to 0        &trans            &none       &trans     &none                                              
                                           //|----------|------------|-------------|---|-----------|----------|-----------|
