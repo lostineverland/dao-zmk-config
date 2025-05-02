@@ -1,0 +1,11 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+  "subgpt": {
+  	"log_path": "~/GPT_logs",
+  }
+}
