@@ -16,11 +16,15 @@
 #define SYS 4
 #define PAD 5
 
-&lt { quick_tap_ms = <200>; };
-&mt { 
+&lt {
   quick_tap_ms = <200>;
-  tapping-term-ms = <300>;
-  flavor = "balanced";
+  tapping-term-ms = <200>;
+  flavor = "tap-unless-interrupted";
+};
+&mt {
+  quick_tap_ms = <200>;
+  tapping-term-ms = <200>;
+  flavor = "tap-unless-interrupted";
 };
 
 / {
