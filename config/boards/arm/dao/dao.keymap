@@ -21,12 +21,12 @@
 
 &lt {
   quick_tap_ms = <200>;
-  tapping-term-ms = <280>;
+  tapping-term-ms = <200>;
   flavor = "balanced";
 };
 &mt {
   quick_tap_ms = <200>;
-  tapping-term-ms = <280>;
+  tapping-term-ms = <200>;
   flavor = "balanced";
 };
 
