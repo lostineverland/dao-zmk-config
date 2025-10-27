@@ -26,6 +26,93 @@ I love this keyboard, and as I become more adept at using it, I progressively ty
     - split
     - status
 
+### Testing
+
+⏺ Great idea! Here's a systematic test guide for your home-row mods:
+
+  Home-Row Mod Testing Guide
+
+  1. Test for Double-Key Issue (The Main Problem)
+
+  Type these words that use home-row mod keys. If the issue persists, you'll see doubled letters:
+
+  add dad did sad said
+  all fall call shall
+  ask flask task mask
+  different difficult address
+
+  Focus especially on:
+  - d words (ALT on left hand)
+  - a words (CTRL on left hand)
+  - s words (SHIFT on left hand)
+
+  2. Test Fast Typing Flow
+
+  Type these sentences at your normal typing speed:
+
+  The quick brown fox jumps over the lazy dog.
+  A fast keyboard is a delight to use all day long.
+  She sells seashells down by the seashore.
+
+  If timing is wrong, you'll get doubled letters or missed modifiers.
+
+  3. Test Modifier Combinations
+
+  These test that modifiers activate correctly when pressing other keys:
+
+  Single Modifiers:
+  - Hold F (GUI) + press T → Should trigger CMD+T (new tab in browser)
+  - Hold D (ALT) + press TAB → Should trigger ALT+TAB (app switcher)
+  - Hold S (SHIFT) + press letters → Should give CAPITAL LETTERS
+  - Hold A (CTRL) + press C → Should copy
+
+  Multiple Modifiers (your specific example):
+  - Hold F (GUI) + Hold D (ALT) + press N → Should trigger CMD+OPT+N
+  - Hold J (GUI) + Hold K (ALT) + press letter → Should trigger right-hand modifier combo
+
+  4. Test the "Roll" Pattern
+
+  This tests if the tap-unless-interrupted flavor works correctly. Type these letter combinations quickly in succession:
+
+  df ds da
+  jk jl j;
+  as df fg
+
+  These should produce the letters, NOT trigger modifiers (since you're not holding, just rolling).
+
+  5. Test Hold Duration
+
+  Type these slowly, intentionally holding the home-row key for >200ms:
+
+  - Hold A for half a second, then press C → Should copy (CTRL+C)
+  - Hold F for half a second, then press T → Should open new tab (CMD+T)
+  - Hold J for half a second, then press K → Should give you whatever CMD+K does
+
+  6. Real-World Usage Test
+
+  Open a text editor and type a few paragraphs of real content. The best test is natural typing. If you notice:
+  - Doubled letters → Tapping term might need adjustment
+  - Missed modifiers → Quick tap or flavor might need tweaking
+  - Accidental modifiers → Tapping term might be too short
+
+  Expected Results
+
+  ✅ Good signs:
+  - Single taps produce single letters
+  - Fast typing doesn't produce doubled letters
+  - Holding + another key consistently triggers modifiers
+  - Modifier combos (CMD+OPT+N) work reliably
+
+  ❌ Bad signs:
+  - Still getting dd instead of d
+  - Modifiers don't trigger when you want them
+  - Random capitals or shortcuts appearing during normal typing
+
+  Let me know what you find! If there are still issues, we can fine-tune:
+  - tapping-term-ms (increase if modifiers trigger too easily, decrease if they don't trigger fast enough)
+  - quick_tap_ms (affects the repeat-key window)
+  - flavor (we can try other options like hold-preferred or balanced)
+
 ## Default keymap
 
 ### Dao42
