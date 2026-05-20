@@ -5,7 +5,11 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      # Pinned to the last ZMK main commit that built this config successfully
+      # (2025-12-07). Tracking `main` broke the build after ZMK's upstream
+      # Hardware Model v2 (HWMv2) migration. Bump deliberately after migrating
+      # config/boards/arm/dao to HWMv2.
+      revision: abb64ba316c29caddc49727ca2cac2f0ed5970c7
       import: app/west.yml
   self:
     path: config
