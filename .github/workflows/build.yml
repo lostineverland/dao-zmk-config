@@ -2,4 +2,8 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    # Pinned to match the pinned ZMK revision in config/west.yml. The @main
+    # reusable workflow added an HWMv2-only post-build check ({qualifiers})
+    # that crashes against the older pinned ZMK/Zephyr. Bump together with
+    # config/west.yml after migrating config/boards/arm/dao to HWMv2.
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@abb64ba316c29caddc49727ca2cac2f0ed5970c7
