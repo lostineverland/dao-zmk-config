@@ -5,7 +5,9 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      # Pinned to a verified-good ZMK revision. This `stable` branch is a
+      # frozen known-good build; `main` tracks the latest ZMK instead.
+      revision: 9917e2f1371d5bb051bf8eb782c1297db41d742b
       import: app/west.yml
   self:
     path: config
