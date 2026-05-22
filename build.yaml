@@ -1,5 +1,7 @@
 include:
   - board: dao_left
   - board: dao_right
-  - board: nice_nano_v2
+  - board: dao_left
+    shield: settings_reset
+  - board: dao_right
     shield: settings_reset
